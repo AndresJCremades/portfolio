@@ -1,0 +1,71 @@
+/*
+Colours used
+
+Primary Colour (Pink): #ff2267;
+Secondary Colour (Black): #000000;
+*/
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  max-width: 80ch;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+p {
+  font-weight: 300;
+  text-align: justify;
+  text-justify: auto;
+}
+
+div, header, button {
+  margin: 10px;
+  padding: 10px;
+}
+
+a {
+  color: #ff2267;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ff2267;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #ff6694;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+
+  background-color: #ff2267;
+  color: #FFFFFF !important;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #c5003d;
+  transition: 0.2s opacity;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
