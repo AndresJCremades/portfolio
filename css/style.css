@@ -30,6 +30,7 @@ p {
   max-width: 80ch;
 }
 
+
 div, header, button {
   margin: 10px;
   padding: 10px;
@@ -80,4 +81,22 @@ button:focus {
   max-width: 1000px;
   margin: 0 auto; /* Not spacing to top and bottom and auto spacing to left and right*/
   padding: 0 20px;
+}
+
+.cover {
+  height: 150px;
+}
+
+.column-container {
+  white-space: nowrap;
+}
+
+.column-4 {
+  width: 24%;
+  display: inline-block;
+  margin-right: 1%;
+}
+
+.column-4:last-child {
+  margin-right: 0;
 }
