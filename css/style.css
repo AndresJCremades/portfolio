@@ -4,6 +4,9 @@ Colours used
 Primary Colour (Pink): #ff2267;
 Secondary Colour (Black): #000000;
 */
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Roboto Slab', serif;
