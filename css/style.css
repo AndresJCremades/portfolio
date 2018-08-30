@@ -72,3 +72,12 @@ button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
+
+/* Layout styling*/
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto; /* Not spacing to top and bottom and auto spacing to left and right*/
+  padding: 0 20px;
+}
