@@ -124,10 +124,12 @@ button:focus {
   display: inline-block;
   margin-left: 10px;
   float: right;
+  width: 75px;
+  text-align: center;
 }
 
 .navigation > li:first-child {
-  margin-right:74px;
+  margin-right:50px;
 }
 
 .logo {
