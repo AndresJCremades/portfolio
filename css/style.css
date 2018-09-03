@@ -187,7 +187,7 @@ button:hover, .button:hover, button:focus, .button:focus {
   margin-top: 50px;
 }
 
-.downloadCV > a {
+.downloadCV > a, .emailme > a {
   font-weight: 400;
 }
 
