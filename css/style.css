@@ -312,7 +312,7 @@ button:hover, .button:hover, button:focus, .button:focus {
 }
 
 .cloud-front {
-  animation-duration: 30s;
+  animation-duration: 34s;
   animation-name: cloud-move;
   animation-iteration-count: infinite;
   animation-direction: alternate;
