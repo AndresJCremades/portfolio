@@ -192,9 +192,9 @@ button:hover, .button:hover, button:focus, .button:focus {
 }
 
 .valencia-illustration {
-  max-width: 800px;
+  max-width: 1000px;
   max-height: 400px;
-  margin-left: 100px;
+
 }
 
 @media all and (max-width: 825px) {
