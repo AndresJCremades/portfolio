@@ -96,7 +96,7 @@ button:hover, .button:hover, button:focus, .button:focus {
   max-width: 860px;
   margin-left: auto;
   margin-right: auto;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   display: grid;
   grid-template-columns: repeat(4,25%);
   padding: 0;
@@ -122,6 +122,12 @@ button:hover, .button:hover, button:focus, .button:focus {
 
 .project-details {
   display: none;
+  max-width: 160px;
+  font-size: 16px;
+  text-align: justify;
+  text-justify: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navigation {
@@ -221,20 +227,10 @@ button:hover, .button:hover, button:focus, .button:focus {
   }
 
   .column-container {
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-  }
-
-  .column-4 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .column-4 > p {
-    text-align: center;
   }
 
   h1 {
@@ -260,7 +256,7 @@ button:hover, .button:hover, button:focus, .button:focus {
   }
 
   .column-container {
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     display: flex;
     flex-direction: column;
   }
@@ -270,14 +266,8 @@ button:hover, .button:hover, button:focus, .button:focus {
     grid-template-columns: 1fr;
   }
 
-  .column-4 > img {
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-  .column-4 > p {
-    text-align: center;
-  }
+
 }
 
 @media all and (max-width: 360px) {
