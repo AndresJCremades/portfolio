@@ -102,6 +102,10 @@ button:hover, .button:hover, button:focus, .button:focus {
   padding: 0;
 }
 
+.column-4 {
+  vertical-align:top;
+}
+
 .project-preview {
   padding: 0;
 }
