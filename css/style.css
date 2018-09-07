@@ -1,7 +1,7 @@
 /*
 Colours used
 
-Primary Colour (Pink): #ff2267;
+Primary Colour (Pink): #ff2267; (#ffb8ce;)
 Secondary Colour (Black): #000000;
 */
 * {
@@ -104,6 +104,13 @@ button:hover, .button:hover, button:focus, .button:focus {
 
 .column-4 {
   vertical-align:top;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.column-4:hover {
+  background-color: #ffd1e0;
+  color: #ff2267;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .project-preview {
@@ -118,10 +125,12 @@ button:hover, .button:hover, button:focus, .button:focus {
 
 .project-preview > p {
   text-align: center;
+  font-weight: 400;
 }
 
 .project-details {
   display: none;
+  font-weight: 400;
   max-width: 160px;
   font-size: 14px;
   text-align: center;
