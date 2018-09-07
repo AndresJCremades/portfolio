@@ -46,7 +46,6 @@ a:visited {
   color: #ff2267;
 }
 
-a:hover,
 a:focus {
   text-decoration: underline;
 }
@@ -194,17 +193,17 @@ button:hover, .button:hover, button:focus, .button:focus {
   margin-bottom: auto;
 }
 
-.downloadCV {
+.download-CV {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.downloadCV > p {
+.download-CV > p {
   margin-top: 50px;
 }
 
-.downloadCV > a, .emailme > a {
+.download-CV > a, .emailme > a {
   font-weight: 400;
 }
 
@@ -215,7 +214,7 @@ button:hover, .button:hover, button:focus, .button:focus {
   max-width: 800px;
 }
 
-
+/* to 825px the navigation bar is centered and the projects are displayed within two columns. Font size is reduced*/
 @media all and (max-width: 825px) {
 
   header {
@@ -256,6 +255,7 @@ button:hover, .button:hover, button:focus, .button:focus {
   }
 }
 
+/* to 430px the navigation bar is centered and displayed as column. The projects are displayed within one columns. Font size is reduced*/
 @media all and (max-width: 430px) {
 
   .navigation {
@@ -279,6 +279,7 @@ button:hover, .button:hover, button:focus, .button:focus {
 
 }
 
+/* to 360px the logo is reduced*/
 @media all and (max-width: 360px) {
 
   .logo {
@@ -293,6 +294,8 @@ button:hover, .button:hover, button:focus, .button:focus {
 }
 
 /* Animations */
+
+/* the colour of the sun is changing constantly in a loop */
 @keyframes color-change {
   from {fill: #E7B95C;}
   to {fill: #f76414;}
@@ -304,11 +307,10 @@ button:hover, .button:hover, button:focus, .button:focus {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
-
-  /* animation: 4s color-change infinite alternate linear */
 }
 
 
+/* animate clouds: ones go from left to right and the others in the opposite direction. */
 @keyframes cloud-move {
     from {transform: translate(0,50px);}
     to {transform: translate(200px,50px);}
